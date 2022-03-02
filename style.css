@@ -1,0 +1,84 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    max-width: 1000px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #48c5ce;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
+main {
+    
+    
+    
+}
+section {
+    padding: 20px;
+    background-image: url(imagens/images/people.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.container {
+    max-width: 230px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    float: right;
+
+}
+.container h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.container p {
+    margin-bottom: 20px;
+}
+input, select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+#submit {
+    color: white;
+    background-color: #48c5ce;
+    font-weight: bold;
+}
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url(imagens/images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+}
+footer {
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+}
+#img2 {
+    width: 160px;
+}
+
+.rodape {
+    color: white;
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: left;
+}
+.rodape p, .rodape h2{
+    margin-bottom: 20px;
+}
